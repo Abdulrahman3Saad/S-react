@@ -1,0 +1,82 @@
+.navbar{
+    background-color: #2c3e50;
+}
+.transition{
+    transition: all 0.5s;
+}
+
+.active{
+    background-color: #1abc9c;
+}
+
+.main-about-home{
+    background-color: #1abd9c;
+    margin-top: 86px;
+    height: 85vh;
+}
+
+.line{
+    background-color: #fff;
+    width: 80px;
+    height: 4px;
+}
+
+.footer {
+  background-color: #2c3e50;
+  color: #fff;
+  padding: 40px 0;
+}
+
+.card-group {
+  background-color: transparent !important;
+}
+
+.card {
+  background-color: #2c3e50;
+  border: none;
+}
+
+.icon {
+  border: 2px solid white;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  color: white;
+  font-size: 24px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+p{
+    margin-top: 0;
+    margin-bottom: 16px;
+}
+
+
+.ico-portfolio .line{
+    background-color: rgb(44,62,80);
+}
+
+.ico-portfolio .line i{
+    background-color: rgb(44,62,80);
+}
+
+
+
+
+.main-contact-portfolio{
+    background-color: #fff;
+    margin-top: 86px;
+    min-height: 85vh;
+}
+
+.layer{
+    background-color: #1abc9ce6;
+    opacity: 0;
+    cursor: pointer;
+    transition: all 0.6s;
+}
+
+.img-app:hover .layer{
+    opacity: 1;
+}
